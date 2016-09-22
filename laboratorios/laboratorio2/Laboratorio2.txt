@@ -1,0 +1,13 @@
+print("Bienvenido a la Calculadora de Monedas Internacionales")
+
+n = float(input("Introduzca el numero:" ))
+d = (n/100)
+e = (d*0.8965)
+y = (d*101.5744)
+b = (d*0.7702)
+mxn = (d*19.7843)
+print("Cantidad en USD " + str(d))
+print("Cantidad en EUROS " + str(e))
+print("Cantidad en YENES " + str(y))
+print("Cantidad en LIBRAS" + str(b))
+print("Cantidad en PMEXICANOS" + str (mxn))

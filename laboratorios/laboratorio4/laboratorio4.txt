@@ -1,0 +1,19 @@
+a= True
+oracion=0
+cagua=0
+cfuego=0
+agre= []
+print("Escribe una oracion: ")
+while a :
+        oracion = input("Pon otra: ")
+        if "agua" in oracion:
+            cagua=cagua+1
+        if "fuego" in oracion:
+            cfuego=cfuego+1
+        if "agua" in oracion or "fuego" in oracion:
+            agre.append(oracion)
+        if oracion == "salir":
+            a = False
+print("cantidad de agua: " ,cagua)
+print("cantidad de fuego: " ,cfuego)
+print (agre)

@@ -1,0 +1,14 @@
+from unittest import TestCase
+import Quiz10
+
+class TestCuenta(TestCase):
+    def test_n(self):
+        c = Quiz10.Cuenta()
+        self.assertEqual(c.depositar(100), 300)
+
+class TestCuenta(TestCase):
+    def test_retirar(self):
+        c = Quiz10.Cuenta()
+        self.assertEqual(c.retirar(100), 200)
+
+

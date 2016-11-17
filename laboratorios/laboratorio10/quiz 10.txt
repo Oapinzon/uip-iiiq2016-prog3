@@ -1,0 +1,12 @@
+class Cuenta (object):
+
+    def __init__ (self, n = 300):
+        self.saldo = n
+
+    def depositar (self, n):
+        self.saldo += n
+        return self.saldo
+
+    def retirar (self, n):
+        self.saldo -= n
+        return self.saldo
